@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body, body * {
+   font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url("images/Background.jpeg");
+    height: auto;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+  }
+
+  .row{
+    padding-left: 180px;
+  }
+
+  .main_logo .logo-image{
+    width: 17%;
+    margin: 20px 30px;
+  }
+
+  /* Form Title  */
+  .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 10%;
+    margin-bottom: 18px;
+  }
+
+  /* Email and password input */
+  input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 15px;
+    border-radius: 20px;
+    background-color: rgba(133, 206, 220,0.6) !important;
+    margin-bottom: 5px;
+  }
+
+  /*Show Password*/
+  input[type=checkbox]{
+  accent-color:rgba(19, 51, 130, 1);
+}
+
+  /* Forget Password */
+  .forget{
+    margin-right: 10%;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 40px;
+  }
+
+  .forget:hover{
+    font-weight: 600;
+  }
+
+  /* Submit button */
+  .submit-btn{
+    width: 90%;
+    background-color: rgba(19, 51, 130, 1) !important;
+    color: white !important;
+    padding: 10px 15px !important;
+    font-size: 17px !important;
+  }
+  .submit-btn:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+  }
+
+/* Line Break  */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1.5px;
+background: black;
+margin: 35px 0px;
+}
+
+.divider:after{
+  margin-right: 10%;
+}
+
+/* google signin */
+
+.google_btn{
+  width: 90%;
+  padding: 8px 15px !important;
+  font-size: 17px !important;
+  border-radius: 15px;
+  background-color: #f54a8d !important;
+  color: white !important;
+}
+
+.google_btn:hover{
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.g-logo{
+  width: 30px;
+}
+
+div.register {
+  margin-top: 18px ;
+}
+
+@media (max-width: 770px) {
+  body {
+    background-image: url("images/Background1.1.jpeg");
+    width: 100%;
+    height: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+}
+.row{
+  padding-left: 10%;
+}
+
+.main_logo .logo-image{
+  width: 160px;
+  margin: 20px 18px 8px 18px;
+}
+
+.title{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-right: 15%;
+  margin-bottom: 6px;
+}
+
+input[type=text], input[type=password] {
+  width: 85%;
+  padding: 8px 13px;
+  border-radius: 20px;
+  background-color: rgba(133, 206, 220,0.6);
+}
+
+.forget{
+  margin-right: 15%;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+span.pass_text{
+  font-size: 12px;
+}
+
+.submit-btn{
+  width: 85%;
+  background-color: rgba(19, 51, 130, 1) !important;
+  color: white !important;
+  padding: 8px 13px !important;
+  font-size: 14px !important;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 0.5px;
+background: black;
+margin: 20px 0px;
+}
+
+.divider:after{
+  margin-right: 15%;
+}
+
+.google_btn{
+  width: 85%;
+  padding: 5px 13px !important;
+  font-size: 14px !important;
+  border-radius: 15px;
+  background-color: #f54a8d !important;
+  color: white !important;
+}
+
+.g-logo{
+  width: 25px;
+}
+
+div.register {
+  margin-top: 13px;
+  font-size: 13px;
+}
+}
+
+@media (max-width: 670px) {
+  .container {
+    position: absolute;
+    margin-top: 15%;
+    margin-right: 35%;
+  }
+  .title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 40%;
+    margin-bottom: 6px;
+  }
+
+  input[type=text], input[type=password] {
+    width: 65%;
+    padding: 8px 13px;
+    border-radius: 20px;
+    background-color: rgba(133, 206, 220,0.6);
+  }
+
+  .forget{
+    margin-right: 35%;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+  .submit-btn{
+    width: 65%;
+    background-color: rgba(19, 51, 130, 1) !important;
+    color: white !important;
+    padding: 8px 13px !important;
+    font-size: 14px !important;
+  }
+
+  .divider:after{
+    margin-right: 35%;
+  }
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 0.5px;
+background: black;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.google_btn{
+  width: 65%;
+  padding: 5px 13px !important;
+  font-size: 14px !important;
+  border-radius: 15px;
+  background-color: #f54a8d !important;
+  color: white !important;
+}
+
+.g-logo{
+  width: 25px;
+}
+
+div.register {
+  margin-top: 14px;
+  font-size: 13px;
+}
+
+div.register p a::before {
+  content: "\a";
+  white-space: pre;
+}
+}
+
+@media (max-width: 440px) {
+  html, .main_logo {
+    background-color: #fff;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+  body{
+  background-image: none;
+}
+
+  .container {
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 35%;
+  }
+
+  .main_logo .logo-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+  }
+  
+  .title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 15%;
+    margin-bottom: 10px;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 90%;
+    padding: 14px 13px;
+    border-radius: 20px;
+    background-color: rgba(133, 206, 220,0.6);
+  }
+
+  span.pass_text{
+    font-size: 15px;
+  }
+
+  .forget{
+    margin-right: 10%;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .submit-btn{
+    width: 90%;
+    background-color: rgba(19, 51, 130, 1) !important;
+    color: white !important;
+    padding: 14px 13px !important;
+    font-size: 14px !important;
+  }
+  
+  .divider:after,
+  .divider:before {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: black;
+  margin: 50px 0px;
+  }
+  
+  .divider:after{
+    margin-right: 10%;
+  }
+  
+  .google_btn{
+    width: 90%;
+    padding: 8px 13px !important;
+    font-size: 14px !important;
+    border-radius: 15px;
+    background-color: #f54a8d !important;
+    color: white !important;
+  }
+  
+  .g-logo{
+    width: 35px;
+  }
+
+  div.register {
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 321px) {
+  .google_btn{
+    width: 90%;
+    padding: 16px 13px !important;
+    font-size: 14px !important;
+    border-radius: 15px;
+    background-color: #f54a8d !important;
+    color: white !important;
+  }
+  
+  .g-logo{
+    width: 18px;
+  }
+
+  div.register {
+    margin-top: 15px;
+    font-size: 14px;
+    margin-right: 15%;
+  }
+}
